@@ -45,16 +45,23 @@ Markdown:
 If you want to use Paper as your terminal theme, you can use the following color
 palette:
 
-| Color   | Normal     | Bright    | GNOME Terminal color index
-|:--------|:-----------|:----------|:--------------------------
-| Black   | `#000000`  | `#555555` | 0, 8
-| Red     | `#D8422B`  | `#D8422B` | 1, 9
-| Green   | `#216609`  | `#216609` | 2, 10
-| Yellow  | `#B58900`  | `#B58900` | 3, 11
-| Blue    | `#1E6FCC`  | `#1E6FCC` | 4, 12
-| Purple  | `#5C21A5`  | `#5C21A5` | 5, 13
-| Cyan    | `#0EACA4`  | `#0EACA4` | 6, 14
-| Black 2 | `#000000`  | `#000000` | 7, 15
+| Color   | Normal    | Bright    | GNOME Terminal color index
+|:--------|:----------|:----------|:--------------------------
+| Black   | `#000000` | `#555555` | 0, 8
+| Red     | `#D8422B` | `#D8422B` | 1, 9
+| Green   | `#216609` | `#216609` | 2, 10
+| Yellow  | `#B58900` | `#B58900` | 3, 11
+| Blue    | `#1E6FCC` | `#1E6FCC` | 4, 12
+| Purple  | `#5C21A5` | `#5C21A5` | 5, 13
+| Cyan    | `#0EACA4` | `#0EACA4` | 6, 14
+| Black 2 | `#000000` | `#000000` | 7, 15
+
+For the text color, highlight color, etc, use:
+
+| Color     | Foreground | Background
+|:----------|:-----------|:------------
+| Text      | `#000000`  | `#F2EEDE`
+| Highlight | `#000000`  | `#D8D5C7`
 
 ## Requirements
 
