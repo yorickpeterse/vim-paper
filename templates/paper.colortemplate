@@ -22,10 +22,11 @@ Color: lgrey2 #bfbcaf ~
 Color: yellow #b58900 ~
 Color: orange #bf5c00 ~
 Color: purple #5c21a5 ~
+Color: white #ffffff ~
 
 # Terminal colors
-Term Colors: black red green yellow blue purple blue black
-Term Colors: dgrey red green yellow blue purple blue black
+Term Colors: black red green yellow blue purple blue white
+Term Colors: dgrey red green yellow blue purple blue white
 
 # Generic highlight groups
 ColorColumn none lgrey1
