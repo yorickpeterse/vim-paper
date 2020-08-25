@@ -52,9 +52,12 @@ SpellBad red none bold,underline
 SpellCap purple none underline
 SpellLocal green none underline
 SpellRare purple none underline
-StatusLine background dgrey
-StatusLineNC black lgrey2
+StatusLine black lgrey2
+StatusLineNC black lgrey1
 String green none
+TabLine dgrey lgrey2
+TabLineFill black lgrey2
+TabLineSel black background bold
 Title black none bold
 Todo grey none bold
 VertSplit lgrey2 none
@@ -80,8 +83,6 @@ Special -> Normal
 SpecialKey -> Number
 Statement -> Keyword
 StorageClass -> Keyword
-TabLine -> StatusLine
-TabLineFill -> StatusLine
 Type -> Keyword
 Visual -> Cursor
 WildMenu -> PmenuSel
