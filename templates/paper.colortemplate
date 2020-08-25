@@ -1,0 +1,243 @@
+Full name:   Paper
+Short name:  paper
+Author:      Yorick Peterse <yorick@yorickpeterse.com>
+Website:     https://gitlab.com/yorickpeterse/paper.vim
+Description: A light theme based on the color of paper notebooks.
+License:     MPL 2.0
+
+Neovim:     yes
+Variant:    gui 256
+Background: light
+
+# Colors
+Color: background #f2eede ~
+Color: black #000000 ~
+Color: blue #1e6fcc ~
+Color: green #216609 ~
+Color: red #d8422b ~
+Color: grey #777777 ~
+Color: dgrey #555555 ~
+Color: lgrey1 #d8d5c7 ~
+Color: lgrey2 #bfbcaf ~
+Color: yellow #b58900 ~
+Color: orange #bf5c00 ~
+Color: purple #5c21a5 ~
+
+# Terminal colors
+Term Colors: black red green yellow blue purple blue black
+Term Colors: dgrey red green yellow blue purple blue black
+
+# Generic highlight groups
+ColorColumn none lgrey1
+Comment grey none
+Conceal none none
+Cursor none lgrey1
+CursorLineNR black none bold
+Directory purple none
+ErrorMsg red none bold
+ErrorMsg red none bold
+FoldColumn black background
+Keyword black none bold
+LineNr black none
+Macro orange none
+MatchParen none none bold
+NonText background none
+Normal black background
+Number blue none
+Pmenu black lgrey1
+PmenuSel black lgrey2 bold
+Regexp orange none
+Search black yellow
+SpellBad red none bold,underline
+SpellCap purple none underline
+SpellLocal green none underline
+SpellRare purple none underline
+StatusLine background dgrey
+StatusLineNC black lgrey2
+String green none
+Title black none bold
+Todo grey none bold
+VertSplit lgrey2 none
+WarningMsg orange none bold
+
+Boolean -> Keyword
+Character -> String
+Constant -> Normal
+Constant -> Normal
+CursorLine -> Cursor
+Error -> ErrorMsg
+Folded -> Comment
+Identifier -> Normal
+Label -> Special
+MoreMsg -> Normal
+Operator -> Normal
+PmenuThumb -> PmenuSel
+PreCondit -> Macro
+PreProc -> Normal
+Question -> Normal
+SignColumn -> FoldColumn
+Special -> Normal
+SpecialKey -> Number
+Statement -> Keyword
+StorageClass -> Keyword
+TabLine -> StatusLine
+TabLineFill -> StatusLine
+Type -> Keyword
+Visual -> Cursor
+WildMenu -> PmenuSel
+
+# ALE
+ALEError red none bold,underline
+ALEErrorSign red none bold
+ALEWarning orange none bold,underline
+ALEWarningSign orange none bold
+
+# CSS
+cssClassName -> Keyword
+cssColor -> Number
+cssIdentifier -> Keyword
+cssImportant -> Keyword
+cssProp -> Normal
+cssTagName -> Keyword
+
+# Diffs
+DiffAdd -> diffAdded
+DiffChange -> Notice
+DiffDelete -> diffRemoved
+DiffText -> diffLine
+diffAdded -> String
+diffFile black none bold
+diffLine -> Number
+diffRemoved -> Keyword
+
+# Dot
+dotKeyChar -> Normal
+
+# Fugitive
+FugitiveblameTime blue none
+
+# Git commit messages
+gitCommitOverflow -> ErrorMsg
+gitCommitSummary -> String
+
+# HAML
+hamlClass -> Directory
+hamlDocType -> Comment
+hamlId -> Title
+htmlArg -> Normal
+
+# HTML
+htmlLink -> Directory
+htmlScriptTag -> htmlTag
+htmlSpecialTagName -> htmlTag
+htmlTagName -> htmlTag
+
+# Inko
+inkoCommentBold grey none bold
+inkoCommentInlineUrl -> Number
+inkoCommentItalic grey none italic
+inkoCommentTitle grey none bold
+inkoInstanceVariable -> Directory
+inkoKeywordArgument -> Regexp
+
+# Java
+javaAnnotation -> Directory
+javaCommentTitle -> javaComment
+javaDocParam -> Todo
+javaDocTags -> Todo
+javaExternal -> Keyword
+javaStorageClass -> Keyword
+
+# Javascript
+JavaScriptNumber -> Number
+javaScriptBraces -> Normal
+javaScriptFunction -> Keyword
+javaScriptIdentifier -> Keyword
+javaScriptMember -> Normal
+
+# JSON
+jsonKeyword -> String
+
+# Make
+makeTarget -> Function
+
+# Markdown
+markdownCode -> markdownCodeBlock
+markdownCodeBlock -> Comment
+markdownListMarker -> Keyword
+markdownOrderedListMarker -> Keyword
+
+# netrw
+netrwClassify black none
+
+# Perl
+perlPackageDecl -> Normal
+perlStatementInclude -> Statement
+perlStatementPackage -> Statement
+podCmdText -> Todo
+podCommand -> Comment
+podVerbatimLine -> Todo
+
+# Ruby
+rubyAttribute -> Identifier
+rubyClass -> Keyword
+rubyClassVariable -> rubyInstancevariable
+rubyConstant -> Constant
+rubyDefine -> Keyword
+rubyFunction -> Function
+rubyInstanceVariable -> Directory
+rubyMacro -> Identifier
+rubyModule -> rubyClass
+rubyRegexp -> Regexp
+rubyRegexpCharClass -> Normal
+rubyRegexpDelimiter -> Regexp
+rubyRegexpQuantifier -> Normal
+rubyRegexpSpecial -> Regexp
+rubyStringDelimiter -> String
+rubySymbol -> Regexp
+
+# Rust
+rustCommentBlockDoc -> Comment
+rustCommentLineDoc -> Comment
+rustFuncCall -> Identifier
+
+# SASS
+sassClass -> cssClassName
+sassId -> cssIdentifier
+sassInclude -> cssMedia
+
+# Shell
+bashStatement -> Normal
+shFunctionKey -> Keyword
+shTestOpr -> Operator
+
+# SQL
+sqlKeyword -> Keyword
+
+# TypeScript
+typescriptBraces -> Normal
+typescriptEndColons -> Normal
+typescriptExceptions -> Keyword
+typescriptFuncKeyword -> Keyword
+typescriptFunction -> Function
+typescriptIdentifier -> Keyword
+typescriptLogicSymbols -> Operator
+
+# Vimscript
+VimCommentTitle -> Todo
+VimIsCommand -> Constant
+vimGroup -> Constant
+vimHiGroup -> Constant
+
+# XML
+xmlAttrib -> Normal
+xmlTag -> Normal
+xmlTagName -> Normal
+
+# YAML
+yamlPlainScalar -> String
+
+# YARD
+yardComment -> Comment
+yardType -> Todo
+yardTypeList -> Todo
