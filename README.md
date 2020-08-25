@@ -48,12 +48,12 @@ palette:
 | Color   | Normal    | Bright    | GNOME Terminal color index
 |:--------|:----------|:----------|:--------------------------
 | Black   | `#000000` | `#555555` | 0, 8
-| Red     | `#D8422B` | `#D8422B` | 1, 9
+| Red     | `#CC3E28` | `#CC3E28` | 1, 9
 | Green   | `#216609` | `#216609` | 2, 10
 | Yellow  | `#B58900` | `#B58900` | 3, 11
 | Blue    | `#1E6FCC` | `#1E6FCC` | 4, 12
 | Purple  | `#5C21A5` | `#5C21A5` | 5, 13
-| Cyan    | `#0EACA4` | `#0EACA4` | 6, 14
+| Cyan    | `#158c86` | `#158c86` | 6, 14
 | White   | `#FFFFFF` | `#FFFFFF` | 7, 15
 
 For the text color, highlight color, etc, use:

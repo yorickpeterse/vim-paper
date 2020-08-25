@@ -23,10 +23,11 @@ Color: yellow #b58900 ~
 Color: orange #bf5c00 ~
 Color: purple #5c21a5 ~
 Color: white #ffffff ~
+Color: cyan #158c86 ~
 
 # Terminal colors
-Term Colors: black red green yellow blue purple blue white
-Term Colors: dgrey red green yellow blue purple blue white
+Term Colors: black red green yellow blue purple cyan white
+Term Colors: dgrey red green yellow blue purple cyan white
 
 # Generic highlight groups
 ColorColumn none lgrey1
