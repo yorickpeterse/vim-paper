@@ -20,7 +20,6 @@ Color: dgrey #555555 ~
 Color: lgrey1 #d8d5c7 ~
 Color: lgrey2 #bfbcaf ~
 Color: yellow #b58900 ~
-Color: byellow #d8a200 ~
 Color: orange #bf5c00 ~
 Color: purple #5c21a5 ~
 Color: white #ffffff ~
@@ -49,7 +48,7 @@ Number blue none
 Pmenu black lgrey1
 PmenuSel black lgrey2 bold
 Regexp orange none
-Search black byellow
+Search yellow none bold,underline
 SpellBad red none bold,underline
 SpellCap purple none underline
 SpellLocal green none underline
