@@ -53,7 +53,7 @@ SpellCap purple none underline
 SpellLocal green none underline
 SpellRare purple none underline
 StatusLine black lgrey2
-StatusLineNC black lgrey1
+StatusLineNC dgrey lgrey1
 String green none
 TabLine dgrey lgrey2
 TabLineFill black lgrey2
