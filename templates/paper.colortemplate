@@ -115,6 +115,7 @@ dotKeyChar -> Normal
 
 # Fugitive
 FugitiveblameTime blue none
+FugitiveblameHash purple none
 
 # Git commit messages
 gitCommitOverflow -> ErrorMsg
