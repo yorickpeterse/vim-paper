@@ -1,6 +1,6 @@
 # Vim Paper
 
-A personal light theme for NeoVim, based on the color of paper as found in
+A personal light theme for (Neo)Vim, based on the color of paper as found in
 various notebooks.
 
 I created Paper as a replacement for [Happy
@@ -65,8 +65,8 @@ For the text color, highlight color, etc, use:
 
 ## Requirements
 
-* NeoVim, though regular Vim may also work
-* For best results, a NeoVim GUI with true-color support
+* A recent version of (Neo)Vim
+* For best results, a (Neo)Vim GUI with true-color support
 
 ## Installation
 
