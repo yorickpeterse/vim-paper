@@ -33,23 +33,31 @@ Term Colors: dgrey red green yellow blue purple cyan white
 ColorColumn none lgrey1
 Comment grey none
 Conceal none none
+Constant black none
 Cursor none lgrey1
 CursorLineNR black none bold
 Directory purple none
 ErrorMsg red none bold
 ErrorMsg red none bold
 FoldColumn black background
+Identifier black none
+Include black none
 Keyword black none bold
 LineNr black none
 Macro orange none
 MatchParen none none bold
+MoreMsg black none
 NonText background none
 Normal black background
 Number blue none
+Operator black none
 Pmenu black lgrey1
 PmenuSel black lgrey2 bold
+PreProc black none
+Question black none
 Regexp orange none
 Search yellow none bold,underline
+Special black none
 SpellBad red none bold,underline
 SpellCap purple none underline
 SpellLocal green none underline
@@ -67,21 +75,13 @@ WarningMsg orange none bold
 
 Boolean -> Keyword
 Character -> String
-Constant -> Normal
-Constant -> Normal
 CursorLine -> Cursor
 Error -> ErrorMsg
 Folded -> Comment
-Identifier -> Normal
 Label -> Special
-MoreMsg -> Normal
-Operator -> Normal
 PmenuThumb -> PmenuSel
 PreCondit -> Macro
-PreProc -> Normal
-Question -> Normal
 SignColumn -> FoldColumn
-Special -> Normal
 SpecialKey -> Number
 Statement -> Keyword
 StorageClass -> Keyword
@@ -100,7 +100,7 @@ cssClassName -> Keyword
 cssColor -> Number
 cssIdentifier -> Keyword
 cssImportant -> Keyword
-cssProp -> Normal
+cssProp -> Identifier
 cssTagName -> Keyword
 
 # Diffs
@@ -109,12 +109,12 @@ DiffChange -> Notice
 DiffDelete -> diffRemoved
 DiffText -> diffLine
 diffAdded -> String
-diffFile black none bold
+diffFile -> Keyword
 diffLine -> Number
 diffRemoved -> Keyword
 
 # Dot
-dotKeyChar -> Normal
+dotKeyChar -> Operator
 
 # Fugitive
 FugitiveblameTime blue none
@@ -128,7 +128,7 @@ gitCommitSummary -> String
 hamlClass -> Directory
 hamlDocType -> Comment
 hamlId -> Title
-htmlArg -> Normal
+htmlArg -> Identifier
 
 # HTML
 htmlLink -> Directory
@@ -154,10 +154,10 @@ javaStorageClass -> Keyword
 
 # Javascript
 JavaScriptNumber -> Number
-javaScriptBraces -> Normal
+javaScriptBraces -> Operator
 javaScriptFunction -> Keyword
 javaScriptIdentifier -> Keyword
-javaScriptMember -> Normal
+javaScriptMember -> Identifier
 
 # JSON
 jsonKeyword -> String
@@ -172,10 +172,10 @@ markdownListMarker -> Keyword
 markdownOrderedListMarker -> Keyword
 
 # netrw
-netrwClassify black none
+netrwClassify -> Identifier
 
 # Perl
-perlPackageDecl -> Normal
+perlPackageDecl -> Identifier
 perlStatementInclude -> Statement
 perlStatementPackage -> Statement
 podCmdText -> Todo
@@ -193,9 +193,9 @@ rubyInstanceVariable -> Directory
 rubyMacro -> Identifier
 rubyModule -> rubyClass
 rubyRegexp -> Regexp
-rubyRegexpCharClass -> Normal
+rubyRegexpCharClass -> Regexp
 rubyRegexpDelimiter -> Regexp
-rubyRegexpQuantifier -> Normal
+rubyRegexpQuantifier -> Regexp
 rubyRegexpSpecial -> Regexp
 rubyStringDelimiter -> String
 rubySymbol -> Regexp
@@ -208,23 +208,20 @@ rustFuncCall -> Identifier
 # SASS
 sassClass -> cssClassName
 sassId -> cssIdentifier
-sassInclude -> cssMedia
 
 # Shell
-bashStatement -> Normal
 shFunctionKey -> Keyword
-shTestOpr -> Operator
 
 # SQL
 sqlKeyword -> Keyword
 
 # TypeScript
-typescriptBraces -> Normal
-typescriptEndColons -> Normal
+typescriptBraces -> Operator
+typescriptEndColons -> Operator
 typescriptExceptions -> Keyword
 typescriptFuncKeyword -> Keyword
 typescriptFunction -> Function
-typescriptIdentifier -> Keyword
+typescriptIdentifier -> Identifier
 typescriptLogicSymbols -> Operator
 
 # Vimscript
@@ -234,9 +231,9 @@ vimGroup -> Constant
 vimHiGroup -> Constant
 
 # XML
-xmlAttrib -> Normal
-xmlTag -> Normal
-xmlTagName -> Normal
+xmlAttrib -> Identifier
+xmlTag -> Identifier
+xmlTagName -> Identifier
 
 # YAML
 yamlPlainScalar -> String
