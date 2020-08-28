@@ -38,7 +38,6 @@ Cursor none lgrey1
 CursorLineNR black none bold
 Directory purple none
 ErrorMsg red none bold
-ErrorMsg red none bold
 FoldColumn black background
 Identifier black none
 Include black none
