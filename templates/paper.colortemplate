@@ -40,7 +40,7 @@ Directory purple none
 ErrorMsg red none bold
 FoldColumn black background
 Identifier black none
-Include black none
+Include black none bold
 Keyword black none bold
 LineNr black none
 Macro orange none
@@ -203,6 +203,7 @@ rubySymbol -> Regexp
 rustCommentBlockDoc -> Comment
 rustCommentLineDoc -> Comment
 rustFuncCall -> Identifier
+rustModPath -> Identifier
 
 # SASS
 sassClass -> cssClassName
