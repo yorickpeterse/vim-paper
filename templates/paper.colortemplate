@@ -110,7 +110,7 @@ DiffText -> diffLine
 diffAdded -> String
 diffFile -> Keyword
 diffLine -> Number
-diffRemoved -> Keyword
+diffRemoved -> ErrorMsg
 
 # Dot
 dotKeyChar -> Operator
