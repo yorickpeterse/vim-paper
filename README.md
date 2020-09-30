@@ -54,7 +54,7 @@ palette:
 | Blue    | `#1E6FCC` | `#1E6FCC` | 4, 12
 | Purple  | `#5C21A5` | `#5C21A5` | 5, 13
 | Cyan    | `#158c86` | `#158c86` | 6, 14
-| White   | `#FFFFFF` | `#FFFFFF` | 7, 15
+| Grey    | `#555555` | `#555555` | 7, 15
 
 For the text color, highlight color, etc, use:
 
