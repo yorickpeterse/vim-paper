@@ -88,6 +88,11 @@ Type -> Keyword
 Visual -> Cursor
 WildMenu -> PmenuSel
 
+# These highlight groups can be used for statuslines, for example when
+# displaying ALE warnings and errors.
+WhiteOnOrange white orange
+WhiteOnRed white red
+
 # ALE
 ALEError red none bold
 ALEErrorSign red none bold
