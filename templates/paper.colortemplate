@@ -89,9 +89,9 @@ Visual -> Cursor
 WildMenu -> PmenuSel
 
 # ALE
-ALEError red none bold,underline
+ALEError red none bold
 ALEErrorSign red none bold
-ALEWarning orange none bold,underline
+ALEWarning orange none bold
 ALEWarningSign orange none bold
 
 # CSS
