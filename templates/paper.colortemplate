@@ -91,6 +91,7 @@ WildMenu -> PmenuSel
 # These highlight groups can be used for statuslines, for example when
 # displaying ALE warnings and errors.
 WhiteOnOrange white orange
+WhiteOnYellow white yellow
 WhiteOnRed white red
 
 # ALE
