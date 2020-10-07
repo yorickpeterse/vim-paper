@@ -130,12 +130,14 @@ gitCommitOverflow -> ErrorMsg
 gitCommitSummary -> String
 
 # HAML
-hamlClass -> Directory
+hamlClass black none
+hamlId black none
+hamlTag black none bold
 hamlDocType -> Comment
-hamlId -> Title
 htmlArg -> Identifier
 
 # HTML
+htmlTag black none bold
 htmlLink -> Directory
 htmlScriptTag -> htmlTag
 htmlSpecialTagName -> htmlTag
