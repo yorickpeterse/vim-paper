@@ -9,7 +9,7 @@ Neovim:     yes
 Variant:    gui 256
 Background: light
 
-# Colors
+; Colors
 Color: background #f2eede ~
 Color: black #000000 ~
 Color: blue #1e6fcc ~
@@ -25,11 +25,11 @@ Color: purple #5c21a5 ~
 Color: white #ffffff ~
 Color: cyan #158c86 ~
 
-# Terminal colors
+; Terminal colors
 Term Colors: black red green yellow blue purple cyan white
 Term Colors: dgrey red green yellow blue purple cyan white
 
-# Generic highlight groups
+; Generic highlight groups
 ColorColumn none lgrey1
 Comment grey none
 Conceal none none
@@ -88,19 +88,19 @@ Type -> Keyword
 Visual -> Cursor
 WildMenu -> PmenuSel
 
-# These highlight groups can be used for statuslines, for example when
-# displaying ALE warnings and errors.
+; These highlight groups can be used for statuslines, for example when
+; displaying ALE warnings and errors.
 WhiteOnOrange white orange
 WhiteOnYellow white yellow
 WhiteOnRed white red
 
-# ALE
+; ALE
 ALEError red none bold
 ALEErrorSign red none bold
 ALEWarning orange none bold
 ALEWarningSign orange none bold
 
-# CSS
+; CSS
 cssClassName -> Keyword
 cssColor -> Number
 cssIdentifier -> Keyword
@@ -108,7 +108,7 @@ cssImportant -> Keyword
 cssProp -> Identifier
 cssTagName -> Keyword
 
-# Diffs
+; Diffs
 DiffAdd -> diffAdded
 DiffChange -> Notice
 DiffDelete -> diffRemoved
@@ -118,32 +118,32 @@ diffFile -> Keyword
 diffLine -> Number
 diffRemoved red none
 
-# Dot
+; Dot
 dotKeyChar -> Operator
 
-# Fugitive
+; Fugitive
 FugitiveblameTime blue none
 FugitiveblameHash purple none
 
-# Git commit messages
+; Git commit messages
 gitCommitOverflow -> ErrorMsg
 gitCommitSummary -> String
 
-# HAML
+; HAML
 hamlClass black none
 hamlId black none
 hamlTag black none bold
 hamlDocType -> Comment
 htmlArg -> Identifier
 
-# HTML
+; HTML
 htmlTag black none bold
 htmlLink -> Directory
 htmlScriptTag -> htmlTag
 htmlSpecialTagName -> htmlTag
 htmlTagName -> htmlTag
 
-# Inko
+; Inko
 inkoCommentBold grey none bold
 inkoCommentInlineUrl -> Number
 inkoCommentItalic grey none italic
@@ -151,7 +151,7 @@ inkoCommentTitle grey none bold
 inkoInstanceVariable -> Directory
 inkoKeywordArgument -> Regexp
 
-# Java
+; Java
 javaAnnotation -> Directory
 javaCommentTitle -> javaComment
 javaDocParam -> Todo
@@ -159,29 +159,29 @@ javaDocTags -> Todo
 javaExternal -> Keyword
 javaStorageClass -> Keyword
 
-# Javascript
+; Javascript
 JavaScriptNumber -> Number
 javaScriptBraces -> Operator
 javaScriptFunction -> Keyword
 javaScriptIdentifier -> Keyword
 javaScriptMember -> Identifier
 
-# JSON
+; JSON
 jsonKeyword -> String
 
-# Make
+; Make
 makeTarget -> Function
 
-# Markdown
+; Markdown
 markdownCode -> markdownCodeBlock
 markdownCodeBlock -> Comment
 markdownListMarker -> Keyword
 markdownOrderedListMarker -> Keyword
 
-# netrw
+; netrw
 netrwClassify -> Identifier
 
-# Perl
+; Perl
 perlPackageDecl -> Identifier
 perlStatementInclude -> Statement
 perlStatementPackage -> Statement
@@ -189,7 +189,7 @@ podCmdText -> Todo
 podCommand -> Comment
 podVerbatimLine -> Todo
 
-# Ruby
+; Ruby
 rubyAttribute -> Identifier
 rubyClass -> Keyword
 rubyClassVariable -> rubyInstancevariable
@@ -207,26 +207,26 @@ rubyRegexpSpecial -> Regexp
 rubyStringDelimiter -> String
 rubySymbol -> Regexp
 
-# Rust
+; Rust
 rustCommentBlockDoc -> Comment
 rustCommentLineDoc -> Comment
 rustFuncCall -> Identifier
 rustModPath -> Identifier
 
-# Python
+; Python
 pythonOperator -> Keyword
 
-# SASS
+; SASS
 sassClass -> cssClassName
 sassId -> cssIdentifier
 
-# Shell
+; Shell
 shFunctionKey -> Keyword
 
-# SQL
+; SQL
 sqlKeyword -> Keyword
 
-# TypeScript
+; TypeScript
 typescriptBraces -> Operator
 typescriptEndColons -> Operator
 typescriptExceptions -> Keyword
@@ -235,21 +235,21 @@ typescriptFunction -> Function
 typescriptIdentifier -> Identifier
 typescriptLogicSymbols -> Operator
 
-# Vimscript
+; Vimscript
 VimCommentTitle -> Todo
 VimIsCommand -> Constant
 vimGroup -> Constant
 vimHiGroup -> Constant
 
-# XML
+; XML
 xmlAttrib -> Identifier
 xmlTag -> Identifier
 xmlTagName -> Identifier
 
-# YAML
+; YAML
 yamlPlainScalar -> String
 
-# YARD
+; YARD
 yardComment -> Comment
 yardType -> Todo
 yardTypeList -> Todo
