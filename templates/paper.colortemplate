@@ -213,6 +213,9 @@ rustCommentLineDoc -> Comment
 rustFuncCall -> Identifier
 rustModPath -> Identifier
 
+# Python
+pythonOperator -> Keyword
+
 # SASS
 sassClass -> cssClassName
 sassId -> cssIdentifier
