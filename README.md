@@ -28,17 +28,10 @@ mind:
 
 ## Screenshots
 
-Ruby:
+| Ruby                          | Rust                          | Markdown
+|:------------------------------|:------------------------------|:-------------
+| ![Ruby](screenshots/ruby.png) | ![Rust](screenshots/rust.png) | ![Markdown](screenshots/markdown.png)
 
-![Ruby](screenshots/ruby.png)
-
-Rust:
-
-![Rust](screenshots/rust.png)
-
-Markdown:
-
-![Markdown](screenshots/markdown.png)
 
 ## Terminal colors
 
