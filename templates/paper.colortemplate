@@ -116,6 +116,12 @@ DiffChange none none
 DiffDelete red none
 DiffText black lyellow
 
+diffAdded -> DiffAdd
+diffChanged -> DiffChange
+diffRemoved -> DiffDelete
+diffFile black none bold
+diffLine blue none
+
 ; Dot
 dotKeyChar -> Operator
 
