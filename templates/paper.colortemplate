@@ -110,14 +110,10 @@ cssProp -> Identifier
 cssTagName -> Keyword
 
 ; Diffs
-DiffAdd -> diffAdded
+DiffAdd -> String
 DiffChange -> Notice
-DiffDelete -> diffRemoved
-DiffText -> diffLine
-diffAdded -> String
-diffFile -> Keyword
-diffLine -> Number
-diffRemoved red none
+DiffDelete red none
+DiffText -> Number
 
 ; Dot
 dotKeyChar -> Operator
