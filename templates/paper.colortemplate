@@ -21,6 +21,7 @@ Color: lgrey1 #d8d5c7 ~
 Color: lgrey2 #bfbcaf ~
 Color: lgrey3 #aaaaaa ~
 Color: yellow #b58900 ~
+Color: lyellow #f2de91 ~
 Color: orange #a55000 ~
 Color: purple #5c21a5 ~
 Color: white #ffffff ~
@@ -110,10 +111,10 @@ cssProp -> Identifier
 cssTagName -> Keyword
 
 ; Diffs
-DiffAdd -> String
-DiffChange -> Notice
+DiffAdd green none
+DiffChange none none
 DiffDelete red none
-DiffText -> Number
+DiffText black lyellow
 
 ; Dot
 dotKeyChar -> Operator
