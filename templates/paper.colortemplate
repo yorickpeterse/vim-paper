@@ -57,7 +57,7 @@ PmenuSel black lgrey2 bold
 PreProc black none
 Question black none
 Regexp orange none
-Search yellow none bold,underline
+Search none lyellow
 Special black none
 SpellBad red none bold,underline
 SpellCap purple none underline
