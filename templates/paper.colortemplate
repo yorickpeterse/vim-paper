@@ -14,6 +14,7 @@ Color: background #f2eede ~
 Color: black #000000 ~
 Color: blue #1e6fcc ~
 Color: green #216609 ~
+Color: lgreen #dfeacc ~
 Color: red #cc3e28 ~
 Color: grey #777777 ~
 Color: dgrey #555555 ~
@@ -111,10 +112,10 @@ cssProp -> Identifier
 cssTagName -> Keyword
 
 ; Diffs
-DiffAdd green none
+DiffAdd none lgreen
 DiffChange none none
 DiffDelete red none
-DiffText black lyellow
+DiffText none lyellow
 
 diffAdded -> DiffAdd
 diffChanged -> DiffChange
