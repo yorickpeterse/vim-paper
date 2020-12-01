@@ -80,7 +80,7 @@ Character -> String
 CursorLine -> Cursor
 Error -> ErrorMsg
 Folded -> Comment
-Label -> Special
+Label -> Keyword
 PmenuThumb -> PmenuSel
 PreCondit -> Macro
 SignColumn -> FoldColumn
