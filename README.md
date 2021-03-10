@@ -70,17 +70,6 @@ Using vim-plug, add the following to your `init.vim`:
 Then run `PlugInstall` to install it, followed by `color paper` to enable the
 theme.
 
-## Building
-
-To build a new version of the theme, you need to have
-[vim-colortemplate](https://github.com/lifepillar/vim-colortemplate) installed.
-
-When installed, open `templates/paper.colortemplate`, make your changes, then
-run the following to update the theme:
-
-    :cd templates
-    :Colortemplate! ..
-
 ## License
 
 All source code in this repository is licensed under the Mozilla Public License
