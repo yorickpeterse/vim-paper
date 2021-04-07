@@ -137,6 +137,7 @@ Hi MatchParen NONE NONE bold
 Hi MoreMsg black NONE NONE
 Hi NonText background NONE NONE
 Hi Normal black background NONE
+Hi NormalFloat black background NONE
 Hi Number blue NONE NONE
 Hi Operator black NONE NONE
 Hi Pmenu black lgrey1 NONE
