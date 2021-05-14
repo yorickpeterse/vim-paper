@@ -149,7 +149,7 @@ Hi Regexp orange NONE NONE
 Hi Search NONE lyellow NONE
 Hi IncSearch NONE lyellow NONE
 Hi Special black NONE NONE
-Hi SpellBad red NONE boldunderline
+Hi SpellBad red NONE bold underline
 Hi SpellCap purple NONE underline
 Hi SpellLocal green NONE underline
 Hi SpellRare purple NONE underline
