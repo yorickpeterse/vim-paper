@@ -163,6 +163,7 @@ Hi Title black NONE bold
 Hi Todo grey NONE bold
 Hi VertSplit lgrey2 NONE NONE
 Hi WarningMsg orange NONE bold
+Hi Underlined NONE NONE underline
 
 hi! link Boolean Keyword
 hi! link Character String
