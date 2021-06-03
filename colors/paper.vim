@@ -19,7 +19,7 @@ let g:colors_name = 'paper'
 "
 " We use this function so we can use variables in our highlight groups, instead
 " of having to repeat the same color codes in a bunch of places.
-function! s:Hi(group, fg_name, bg_name, gui)
+function! s:Hi(group, fg_name, bg_name, gui, ...)
   if a:fg_name == 'NONE'
     let fg = a:fg_name
   else
@@ -30,15 +30,21 @@ function! s:Hi(group, fg_name, bg_name, gui)
     let bg = a:bg_name
   else
     let bg = s:colors[a:bg_name]
-  end
+  endif
 
   if empty(a:gui)
     let style = 'NONE'
   else
     let style = a:gui
-  end
+  endif
 
-  exe 'hi ' . a:group . ' guifg=' . fg . ' guibg=' . bg . ' gui=' . style
+  if a:0 == 1 && !empty(a:1)
+    let sp = s:colors[a:1]
+  else
+    let sp = 'NONE'
+  endif
+
+  exe 'hi ' . a:group . ' guifg=' . fg . ' guibg=' . bg . ' gui=' . style . ' guisp=' . sp
 endfunction
 
 " A temporary command is used to make it easier/less verbose to define highlight
@@ -111,7 +117,7 @@ endif
 " We use the custom Hi command for this. The syntax of this command is as
 " follows:
 "
-"     Hi NAME FG BG GUI
+"     Hi NAME FG BG GUI GUISP
 "
 " Where NAME is the highlight name, FG the foreground color, BG the background
 " color, and GUI the settings for the `gui` option (e.g. bold). Since Hi is a
@@ -186,6 +192,7 @@ hi! link WildMenu PmenuSel
 Hi WhiteOnOrange white orange NONE
 Hi WhiteOnYellow white yellow NONE
 Hi WhiteOnRed white red NONE
+Hi Yellow yellow NONE bold
 
 " ALE
 Hi ALEError red NONE bold
@@ -261,6 +268,10 @@ hi! link jsonKeyword String
 
 " Lua
 hi! link luaFunction Keyword
+
+" LSP
+Hi LspDiagnosticsUnderlineError NONE NONE underline red
+Hi LspDiagnosticsUnderlineWarning NONE NONE underline yellow
 
 " Make
 hi! link makeTarget Function
