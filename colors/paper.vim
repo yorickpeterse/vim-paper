@@ -232,6 +232,12 @@ Hi hamlId black NONE NONE
 Hi hamlTag black NONE bold
 hi! link hamlDocType Comment
 
+" hop.nvim
+Hi HopNextKey red NONE bold
+Hi HopNextKey1 yellow NONE bold
+Hi HopNextKey2 yellow NONE bold
+Hi HopUnmatched grey NONE NONE
+
 " HTML
 Hi htmlTag black NONE bold
 hi! link htmlArg Identifier
