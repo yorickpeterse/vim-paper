@@ -236,7 +236,7 @@ hi! link hamlDocType Comment
 Hi HopNextKey red NONE bold
 Hi HopNextKey1 yellow NONE bold
 Hi HopNextKey2 yellow NONE bold
-Hi HopUnmatched grey NONE NONE
+hi! clear HopUnmatched
 
 " HTML
 Hi htmlTag black NONE bold
