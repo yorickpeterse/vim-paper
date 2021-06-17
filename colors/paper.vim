@@ -234,8 +234,8 @@ hi! link hamlDocType Comment
 
 " hop.nvim
 Hi HopNextKey red NONE bold
-Hi HopNextKey1 yellow NONE bold
-Hi HopNextKey2 yellow NONE bold
+Hi HopNextKey1 yellow NONE NONE
+Hi HopNextKey2 yellow NONE NONE
 hi! clear HopUnmatched
 
 " HTML
