@@ -161,8 +161,8 @@ Hi SpellBad red NONE bold,underline
 Hi SpellCap purple NONE underline
 Hi SpellLocal green NONE underline
 Hi SpellRare purple NONE underline
-Hi StatusLine black lgrey2 NONE
-Hi StatusLineNC dgrey lgrey1 NONE
+Hi StatusLine black lgrey1 NONE
+Hi StatusLineNC black lgrey1 NONE
 Hi String green NONE NONE
 Hi TabLine dgrey lgrey2 NONE
 Hi TabLineFill black lgrey2 NONE
@@ -193,6 +193,7 @@ hi! link WildMenu PmenuSel
 Hi WhiteOnOrange white orange NONE
 Hi WhiteOnYellow white yellow NONE
 Hi WhiteOnRed white red NONE
+Hi BlackOnLightYellow black lyellow NONE
 Hi Yellow yellow NONE bold
 
 " ALE
