@@ -157,10 +157,10 @@ Hi Regexp orange NONE NONE
 Hi Search NONE lyellow NONE
 Hi IncSearch NONE lyellow NONE
 Hi Special black NONE NONE
-Hi SpellBad red NONE bold,underline
-Hi SpellCap purple NONE underline
-Hi SpellLocal green NONE underline
-Hi SpellRare purple NONE underline
+Hi SpellBad red NONE bold,undercurl
+Hi SpellCap purple NONE undercurl
+Hi SpellLocal green NONE undercurl
+Hi SpellRare purple NONE undercurl
 Hi StatusLine black lgrey1 NONE
 Hi StatusLineNC black lgrey1 NONE
 Hi String green NONE NONE
@@ -278,8 +278,8 @@ hi! link jsonKeyword String
 hi! link luaFunction Keyword
 
 " LSP
-Hi LspDiagnosticsUnderlineError NONE NONE underline red
-Hi LspDiagnosticsUnderlineWarning NONE NONE underline yellow
+Hi LspDiagnosticsUnderlineError NONE NONE undercurl red
+Hi LspDiagnosticsUnderlineWarning NONE NONE undercurl yellow
 
 " Make
 hi! link makeTarget Function
