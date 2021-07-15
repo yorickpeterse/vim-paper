@@ -214,7 +214,7 @@ hi! link cssTagName Keyword
 Hi DiffAdd NONE lgreen NONE
 Hi DiffChange NONE NONE NONE
 Hi DiffDelete red NONE NONE
-Hi DiffText NONE lyellow NONE
+Hi DiffText NONE lgreen NONE
 Hi diffFile black NONE bold
 Hi diffLine blue NONE NONE
 hi! link diffAdded DiffAdd
