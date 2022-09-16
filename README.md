@@ -56,6 +56,13 @@ For the text color, highlight color, etc, use:
 | Text      | `#000000`  | `#F2EEDE`
 | Highlight | `#000000`  | `#D8D5C7`
 
+## Related projects
+
+- https://gitlab.com/samue1/paper-theme: support for bashtop, iTerm, Vieb, and
+  Vifm
+- https://marketplace.visualstudio.com/items?itemName=18kimn.notebook-theme:
+  support for VS Code
+
 ## Requirements
 
 * A recent version of (Neo)Vim
