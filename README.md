@@ -33,6 +33,26 @@ mind:
 | ![Ruby](screenshots/ruby.png) | ![Rust](screenshots/rust.png) | ![Markdown](screenshots/markdown.png)
 
 
+## Requirements
+
+* A recent version of (Neo)Vim
+* For best results, a (Neo)Vim GUI with true-color support
+
+## Installation
+
+Using vim-plug, add the following to your `init.vim`:
+
+    Plug 'https://gitlab.com/yorickpeterse/vim-paper.git'
+
+Then run `PlugInstall` to install it, followed by `color paper` to enable the
+theme.
+
+### vim-ailine
+
+Add the following line to your `init.vim`:
+
+let g:airline_theme = 'paper'
+
 ## Terminal colors
 
 If you want to use Paper as your terminal theme, you can use the following color
@@ -62,20 +82,6 @@ For the text color, highlight color, etc, use:
   Vifm
 - https://marketplace.visualstudio.com/items?itemName=18kimn.notebook-theme:
   support for VS Code
-
-## Requirements
-
-* A recent version of (Neo)Vim
-* For best results, a (Neo)Vim GUI with true-color support
-
-## Installation
-
-Using vim-plug, add the following to your `init.vim`:
-
-    Plug 'https://gitlab.com/yorickpeterse/vim-paper.git'
-
-Then run `PlugInstall` to install it, followed by `color paper` to enable the
-theme.
 
 ## License
 
