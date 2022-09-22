@@ -47,7 +47,7 @@ Using vim-plug, add the following to your `init.vim`:
 Then run `PlugInstall` to install it, followed by `color paper` to enable the
 theme.
 
-### vim-ailine
+### vim-airline
 
 Add the following line to your `init.vim`:
 
