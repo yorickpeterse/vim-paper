@@ -51,7 +51,7 @@ theme.
 
 Add the following line to your `init.vim`:
 
-let g:airline_theme = 'paper'
+    let g:airline_theme = 'paper'
 
 ## Terminal colors
 
