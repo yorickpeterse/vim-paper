@@ -2,7 +2,7 @@
 " Description:  A light theme based on the color of paper notebooks.
 " Author:       Yorick Peterse <yorick@yorickpeterse.com>
 " Maintainer:   Yorick Peterse <yorick@yorickpeterse.com>
-" Website:      https://gitlab.com/yorickpeterse/paper.vim
+" Website:      https://github.com/yorickpeterse/vim-paper.vim
 " License:      MPL 2.0
 
 set background=light

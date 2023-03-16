@@ -4,8 +4,8 @@ A personal light theme for (Neo)Vim, based on the color of paper as found in
 various notebooks.
 
 I created Paper as a replacement for [Happy
-Hacking](https://gitlab.com/yorickpeterse/happy_hacking.vim), and the
-[Autumn](https://gitlab.com/yorickpeterse/Autumn.vim) theme it was originally
+Hacking](https://github.com/yorickpeterse/happy_hacking.vim), and the
+[Autumn](https://github.com/yorickpeterse/Autumn.vim) theme it was originally
 based on. I've been using dark themes for the last decade or so, and mostly
 without issues. But dark themes are not necessarily a good choice for your eyes,
 and research has shown that it's generally better to have dark text on a light
@@ -42,7 +42,7 @@ mind:
 
 Using vim-plug, add the following to your `init.vim`:
 
-    Plug 'https://gitlab.com/yorickpeterse/vim-paper.git'
+    Plug 'yorickpeterse/vim-paper'
 
 Then run `PlugInstall` to install it, followed by `color paper` to enable the
 theme.
