@@ -5,9 +5,11 @@
 " Website:      https://github.com/yorickpeterse/vim-paper.vim
 " License:      MPL 2.0
 
-set background=light
+if exists('g.colors_name')
+  highlight clear
+endif
 
-hi clear
+set background=light
 
 if exists('g:syntax_on')
   syntax reset
@@ -172,6 +174,11 @@ Hi Todo grey NONE bold
 Hi VertSplit lgrey2 NONE NONE
 Hi WarningMsg orange NONE bold
 Hi Underlined NONE NONE underline
+Hi DiagnosticInfo green NONE NONE
+Hi DiagnosticSignInfo green NONE NONE
+
+hi! link NotifyINFOIcon DiagnosticInfo
+hi! link NotifyINFOTitle DiagnosticInfo
 
 hi! link Boolean Keyword
 hi! link Character String
@@ -365,6 +372,16 @@ hi! link yamlPlainScalar String
 hi! link yardComment Comment
 hi! link yardType Todo
 hi! link yardTypeList Todo
+
+" Noice
+Hi NoiceCmdlinePopup black lbackground NONE
+Hi NoiceCmdlinePopupTitle black NONE NONE
+Hi NoiceCmdlinePopupBorder black NONE NONE
+Hi NoiceCmdlineIcon black NONE NONE
+Hi NoiceCursor white black NONE
+" Hi NoiceFormatLevelInfo green NONE NONE
+" Hi NoicePopupBorder white white NONE
+Hi NoicePopup background background NONE
 
 delcommand Hi
 
