@@ -377,7 +377,6 @@ Hi NoiceCmdlinePopupTitle black NONE NONE
 Hi NoiceCmdlinePopupBorder black NONE NONE
 Hi NoiceCmdlineIcon black NONE NONE
 Hi NoiceCursor white black NONE
-Hi NoicePopup background background NONE
 
 delcommand Hi
 
