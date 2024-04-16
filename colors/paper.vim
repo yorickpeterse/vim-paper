@@ -5,11 +5,9 @@
 " Website:      https://github.com/yorickpeterse/vim-paper.vim
 " License:      MPL 2.0
 
-if exists('g.colors_name')
-  highlight clear
-endif
-
 set background=light
+
+hi clear
 
 if exists('g:syntax_on')
   syntax reset
@@ -379,8 +377,6 @@ Hi NoiceCmdlinePopupTitle black NONE NONE
 Hi NoiceCmdlinePopupBorder black NONE NONE
 Hi NoiceCmdlineIcon black NONE NONE
 Hi NoiceCursor white black NONE
-" Hi NoiceFormatLevelInfo green NONE NONE
-" Hi NoicePopupBorder white white NONE
 Hi NoicePopup background background NONE
 
 delcommand Hi
