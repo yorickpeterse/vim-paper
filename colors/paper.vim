@@ -174,6 +174,8 @@ Hi WarningMsg orange NONE bold
 Hi Underlined NONE NONE underline
 Hi DiagnosticInfo green NONE NONE
 Hi DiagnosticSignInfo green NONE NONE
+Hi DiagnosticWarn orange NONE NONE
+Hi DiagnosticError red NONE NONE
 
 hi! link NotifyINFOIcon DiagnosticInfo
 hi! link NotifyINFOTitle DiagnosticInfo
