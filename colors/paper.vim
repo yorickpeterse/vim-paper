@@ -126,7 +126,6 @@ endif
 " simply use its name (e.g. "black").
 
 " Generic highlight groups
-Hi ColorColumn NONE lbackground NONE
 Hi Comment grey NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant black NONE NONE
