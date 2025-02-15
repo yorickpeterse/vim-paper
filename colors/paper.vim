@@ -143,7 +143,7 @@ Hi LineNr black NONE NONE
 Hi Macro orange NONE NONE
 Hi MatchParen NONE NONE bold
 Hi MoreMsg black NONE NONE
-Hi NonText background NONE NONE
+Hi NonText lgrey3 NONE NONE
 Hi Normal black background NONE
 Hi NormalFloat black background NONE
 Hi Bold black NONE bold
