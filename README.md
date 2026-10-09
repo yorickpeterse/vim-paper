@@ -83,6 +83,7 @@ For the text color, highlight color, etc, use:
 - https://marketplace.visualstudio.com/items?itemName=18kimn.notebook-theme:
   support for VS Code
 - https://github.com/Erik-J-D/lightline-paper: Lightline support
+- https://github.com/nickycakes/putty-paper: Putty support
 
 ## License
 
